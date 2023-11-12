@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CryptoHomomorfico {
 
 	private BigInteger p, q, n;

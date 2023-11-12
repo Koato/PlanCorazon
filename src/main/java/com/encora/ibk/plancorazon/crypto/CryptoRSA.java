@@ -8,6 +8,9 @@ import java.security.PublicKey;
 import java.util.UUID;
 import javax.crypto.Cipher;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CryptoRSA {
 
 	private PublicKey publicKey;
